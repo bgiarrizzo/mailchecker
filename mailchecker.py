@@ -23,7 +23,7 @@ class MailCheck(BaseHTTPRequestHandler):
 
 
 print("starting server...")
-server_address = ("0.0.0.0", 8081)
+server_address = ("0.0.0.0", 8000)
 httpd = HTTPServer(server_address, MailCheck)
 print("running server...")
 httpd.serve_forever()
